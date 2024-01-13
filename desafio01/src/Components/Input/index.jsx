@@ -2,8 +2,8 @@ import { RiSearchLine } from "react-icons/ri";
 
 export function Input() {
   return (
-    <div className="font-inter flex w-full items-center gap-3 rounded-lg border border-zinc-700 bg-zinc-800 px-6 py-4">
-      <span className="text-salmon text-lg">
+    <div className="flex w-full items-center gap-3 rounded-lg border border-zinc-700 bg-zinc-800 px-6 py-4 font-inter">
+      <span className="text-lg text-salmon">
         <RiSearchLine />
       </span>
       <input

@@ -1,15 +1,13 @@
-import { RiHeart3Line } from "react-icons/ri";
+import { Button } from "../../Components/Button";
 
 export function Cards({ title, description, data }) {
   return (
-    <div className=" hover:border-salmon rounded-lg border-2 border-zinc-700 bg-zinc-900 px-6 py-8 text-zinc-100">
-      <div className="text-salmon mb-5 flex items-center justify-between">
+    <div className=" rounded-lg border-2 border-zinc-700 bg-zinc-900 px-6 py-8 text-zinc-100 hover:border-salmon">
+      <div className="mb-5 flex items-center justify-between text-salmon">
         <span className="font-inter text-sm">{data}</span>
-        <span className="cursor-pointer">
-          <RiHeart3Line size={20} />
-        </span>
+        <Button />
       </div>
-      <h2 className="font-space-grotesk mb-4 text-xl ">{title}</h2>
+      <h2 className="mb-4 font-space-grotesk text-xl ">{title}</h2>
       <p className="font-inter text-sm text-zinc-400">{description}</p>
     </div>
   );
