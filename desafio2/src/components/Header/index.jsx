@@ -6,10 +6,10 @@ export function Header() {
           Frete grátis para todo o Brasil
         </p>
       </div>
-      <div className="bg-image-michael-jordan flex h-96 items-center bg-cover bg-center bg-no-repeat px-6">
+      <div className="flex h-96 items-center bg-image-michael-jordan bg-cover bg-center bg-no-repeat px-6">
         <div className="mx-auto my-0 w-full max-w-6xl">
           <div className="mb-10 flex w-full items-center gap-2">
-            <img src="/src/assets/logo-jordan.svg" alt="Logo Jordan" />
+            <img src="/logo-jordan.svg" alt="Logo Jordan" />
             <span className="text-center text-lg font-medium text-zinc-100">
               JordanShoes
             </span>
