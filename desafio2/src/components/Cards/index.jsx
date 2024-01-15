@@ -3,7 +3,7 @@ export function Cards({ name, category, price, url_img }) {
   return (
     <div className="mt-10 flex flex-col">
       <div className="flex h-48 w-full flex-col items-center justify-center bg-blue-100">
-        <img src={url_img} alt="" className="h-36 w-56" />
+        <img src={url_img} alt="Imagem produto" className="h-36 w-56" />
       </div>
 
       <div className="mt-6 flex flex-col">
