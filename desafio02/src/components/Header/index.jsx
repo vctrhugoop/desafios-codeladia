@@ -10,12 +10,12 @@ export function Header() {
         </p>
       </div>
       <div
-        className="flex h-[400px] items-center px-6"
+        className="flex h-[400px] items-center"
         style={{
           background: `linear-gradient(0deg, rgba(18, 18, 20, 0.75) 0%, rgba(18, 18, 20, 0.75) 100%), url(${bg}) top / cover no-repeat`,
         }}
       >
-        <div className="mx-auto my-0 w-full max-w-6xl ">
+        <div className="mx-auto my-0 w-full max-w-6xl px-6">
           <div className="mb-10 flex w-full items-center gap-2">
             <img src={logo} alt="Logo Jordan" />
             <span className="text-center text-lg font-medium text-zinc-100">
