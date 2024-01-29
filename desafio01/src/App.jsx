@@ -1,8 +1,8 @@
-import { Input } from "./components/Input";
 import { Cards } from "./components/Cards";
+import { Input } from "./components/Input";
 
-import { ContentsContext } from "./contexts/ContentsProvider";
 import { useContext } from "react";
+import { ContentsContext } from "./contexts/ContentsProvider";
 
 export default function App() {
   const { filtered } = useContext(ContentsContext);
